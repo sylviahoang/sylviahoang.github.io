@@ -1,0 +1,51 @@
+/*Make the profile picture round and center it */
+.profile-circular {
+	width: 360px;
+	height: 360px;
+	background-image: url('pictures/image-5.jpg');
+	background-size: cover;
+	display: block;
+	border-radius: 180px;
+	-webkit-border-radius: 180px;
+	-moz-border-radius: 180px;
+	margin: auto;
+} 
+
+.jumbotron {
+	margin-bottom: 100px;
+	background-image: url('pictures/Texture0210.jpg');
+}
+
+#return-top {
+	margin-top: 50px;
+	cursor: n-resize;
+}
+
+ /** Featurettes
+------------------------- **/
+
+.featurette-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading, .contact-heading {
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+@media (min-width: 768px) {
+	.featurette-heading {
+		font-size: 48px;
+	}
+	.contact-heading {
+		font-size: 36px;
+	}
+}
+
+@media (min-width: 992px) {
+	.featurette-heading {
+		margin-top: 50px;
+	}
+}
